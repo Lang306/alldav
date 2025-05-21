@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全局导航</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .image-container a {
+            text-decoration: none;
+        }
+        
+        .image-container img {
+            width: 200px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎来到全局导航</h1>
+    <div class="image-container">
+        <!-- 图片链接1 -->
+        <a href="https://www.tongyi.com/qianwen" target="_blank">
+            <img src="./photos/tongyi.png" alt="通义">
+        </a>
+        
+        <!-- 图片链接2 -->
+        <a href="https://www.bilibili.com/" target="_blank">
+            <img src="./photos/bilibili.jpg" alt="bilibili">
+        </a>
+        
+        <!-- 图片链接3 -->
+        <a href="https://v.qq.com/" target="_blank">
+            <img src="./photos/tengxun.jpg" alt="tengxunvideo">
+        </a>
+
+        <!-- 图片链接1 -->
+        <a href="./001.html" target="_blank">
+            <img src="./photos/xuanwo.png" alt="漩涡">
+        </a>
+
+        <!-- 图片链接1 -->
+        <a href="./index (2).html" target="_blank">
+            <img alt="星场动画">
+        </a>
+        
+        </div>
+
+    <!-- 使用说明：
+    1. 将 "https://example.com/pageX" 替换为你想跳转的实际网址
+    2. 将图片地址替换为你的图片链接
+    3. 可调整 width 值修改图片宽度
+    4. 可添加更多 <a> 标签来增加图片链接 -->
+</body>
+</html>
